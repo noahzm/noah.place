@@ -1,5 +1,6 @@
 import * as React from "react";
 import Layout from "../components/layout";
+import Seo from "../components/seo";
 import { SimpleGrid, Box } from "@chakra-ui/react";
 import { StaticImage } from "gatsby-plugin-image";
 
@@ -45,5 +46,7 @@ const IndexPage = () => (
     </SimpleGrid>
   </Layout>
 );
+
+export const Head = () => <Seo title="Home" />;
 
 export default IndexPage;

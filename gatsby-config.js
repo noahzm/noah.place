@@ -10,6 +10,9 @@
 module.exports = {
   siteMetadata: {
     title: `Noah Michaels`,
+    description: `Noah Michaels' Portfolio`,
+    author: `Noah Michaels`,
+    siteUrl: `https://noah.place/`,
   },
   plugins: [
     {
