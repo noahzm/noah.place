@@ -48,11 +48,11 @@ const InformationPage = () => (
         </Heading>
         <Text>
           After graduating with a degree in Graphic Arts & Imaging Technology
-          from Appalachian State University, he began working as a printing
-          specialist at the North Carolina General Assembly. He is enrolled in
-          courses for a Computer Programming Certificate at North Carolina State
-          University. Next, he plans to continue his education with a Masters of
-          Computer Science.
+          from Appalachian State University, Noah began working as a printing
+          specialist at the North Carolina General Assembly. He is currently
+          enrolled in courses for a Computer Programming Certificate at North
+          Carolina State University. Next, he plans to continue his education by
+          pursuing a Master’s in Computer Science.
         </Text>
       </GridItem>
     </Grid>
