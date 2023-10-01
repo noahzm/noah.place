@@ -24,11 +24,11 @@ const InformationPage = () => (
         </Text>
         <Text>
           <a
-            href="https://www.instagram.com/noahplace/"
+            href="https://github.com/noahzm"
             target="_blank"
             rel="noreferrer"
           >
-            → Instagram
+            → GitHub
           </a>
         </Text>
         <Text>
