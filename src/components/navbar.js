@@ -1,7 +1,7 @@
-import { Grid, GridItem, Box, Icon } from "@chakra-ui/react";
+import { Grid, GridItem, Box, /*Icon*/ } from "@chakra-ui/react";
 import React from "react";
 import { Link } from "gatsby";
-import { RxInstagramLogo } from "react-icons/rx";
+// import { RxInstagramLogo } from "react-icons/rx";
 
 const Navbar = ({ siteTitle }) => (
   <Box
@@ -18,6 +18,7 @@ const Navbar = ({ siteTitle }) => (
       <GridItem colSpan={2}>
         <Link to="/information">Information</Link>
       </GridItem>
+      {/* 
       <GridItem colSpan={1}>
         <a
           href="https://www.instagram.com/noahplace/"
@@ -26,7 +27,7 @@ const Navbar = ({ siteTitle }) => (
         >
           <Icon as={RxInstagramLogo} />
         </a>
-      </GridItem>
+      </GridItem> */}
     </Grid>
   </Box>
 );
