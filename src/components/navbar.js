@@ -1,4 +1,4 @@
-import { Grid, GridItem, Box, /*Icon*/ } from "@chakra-ui/react";
+import { Grid, GridItem, Box, Text/*Icon*/ } from "@chakra-ui/react";
 import React from "react";
 import { Link } from "gatsby";
 // import { RxInstagramLogo } from "react-icons/rx";
@@ -9,14 +9,14 @@ const Navbar = ({ siteTitle }) => (
     bgColor="#dbd7d2"
     w="100%"
     /*borderBottom="1px"*/
-    fontSize={[null, null, "4xl"]}
+    fontSize={["xl", "xl", "4xl"]}
   >
     <Grid templateColumns="repeat(6, 1fr)" p="4" gap="4">
       <GridItem colSpan={3}>
         <Link to="/">{siteTitle}</Link>
       </GridItem>
       <GridItem colSpan={2}>
-        <Link to="/information">Information</Link>
+        <Text>Information</Text>
       </GridItem>
       {/* 
       <GridItem colSpan={1}>
